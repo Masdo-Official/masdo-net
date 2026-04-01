@@ -1102,4 +1102,5 @@ process.on('unhandledRejection', (error) => {
 });
 
 // Start the server
-startServer();
+initializeGoogleSheets();
+module.exports = app; 
