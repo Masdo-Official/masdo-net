@@ -14,7 +14,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Load konfigurasi
-const config = JSON.parse(fs.readFileSync(path.join(__dirname, 'config.json'), 'utf8'));
+const config = JSON.parse(fs.readFileSync(path.join(__dirname, '../config.json'), 'utf8'));
 
 // Konstanta
 const JWT_SECRET = config.security.jwtSecret;
