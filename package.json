@@ -1,0 +1,36 @@
+{
+  "name": "masdo-official-xi9",
+  "version": "2.0.0",
+  "description": "Website Portofolio Premium + Sistem Absensi Digital dengan Google Sheets Integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "absensi",
+    "portofolio",
+    "google-sheets",
+    "express",
+    "web-app"
+  ],
+  "author": "Masdo - XI-9",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "bcrypt": "^5.1.1",
+    "googleapis": "^128.0.0",
+    "dotenv": "^16.3.1",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
